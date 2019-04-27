@@ -175,7 +175,7 @@ def trip_duration_stats(df):
     # display total travel time
     total_travel = int(df['Trip Duration'].sum()/60)
     print('The total travel time in min is: {}'.format(total_travel))
-    #export_csv = df.to_csv (r'export_dataframe.csv', index = None, header=True) #Don't forget to add '.csv' at the end of the path
+
 
     # display mean travel time
     mean_travel = int(df['Trip Duration'].mean()/60)
